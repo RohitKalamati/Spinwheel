@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spin the Wheel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Spin the Wheel</h1>
+        <div class="wheel-container">
+            <canvas id="wheel" width="500" height="500"></canvas>
+            <div class="pointer"></div>
+        </div>
+        <button id="spin-btn">Spin</button>
+        <div class="input-section">
+            <input type="text" id="name-input" placeholder="Enter a name">
+            <button id="add-name-btn">Add Name</button>
+        </div>
+        <div class="user-names">
+            <h2>User-Entered Names</h2>
+            <ul id="user-names-list"></ul>
+        </div>
+        <audio id="spin-sound" src="spin-sound.mp3"></audio>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
